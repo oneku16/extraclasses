@@ -1,0 +1,26 @@
+homework 06/02/2022
+
+
+task 1:
+
+input -> 5
+output:
+        1
+      2 1
+    3 2 1
+  4 3 2 1
+5 4 3 2 1
+___________
+task 1:
+
+input -> 5
+output:
+
+5
+5 4
+5 4 3
+5 4 3 2
+5 4 3 2 1
+
+If don't have an any idea, just google it :)
+
