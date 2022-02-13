@@ -48,19 +48,20 @@
 
 
 
+# ___________________________________________________________
+# solution for task # 1:
 n = 5
 
 for i in range (1, n + 1):
-	# for j in range(i + 1, 2):
-	# 	print(" " * (j - 1), j, end = ' ')
-	# print()
+
+	# this print() prints only empty spaces, in each iterations 
+	# amount of empty spaces decreases -> (n - i). 
+	print(" " * (n - i), end = '')
+
+	# this line for printing numbers [i, 1]
+	for j in range(i, 0, -1):
+		print(j, end = '')
+	print()
 		
-
-
-
-
-
-	# for j in range(n - 1, -1, - 1):
-	# 	print(" " * j, end = ' ')
 
 	 
